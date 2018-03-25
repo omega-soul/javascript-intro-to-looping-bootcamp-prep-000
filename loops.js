@@ -18,7 +18,7 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   do {
-    console.log(--array.length);
+    console.log(--array);
   } while (array.length>0);
   return array;
 }
